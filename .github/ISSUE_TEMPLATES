@@ -1,0 +1,52 @@
+**As a** developer 
+**I need** to read an account from the service 
+**So that** I can get the info of user
+      
+### Details and Assumptions
+    * Use Rest service to make request  
+
+### Acceptance Criteria     
+    gherkin 
+    Given user id
+    When sending request
+    Then user information returned
+
+**As a** developer 
+**I need** to update an account in the service
+**So that** I can change info user when needed
+      
+### Details and Assumptions
+    * Use Rest service to make request  
+
+### Acceptance Criteria     
+    gherkin 
+    Given user id, new informations
+    When sending request
+    Then updated user information returned
+
+**As a** developer 
+**I need** to delete an account in the service
+**So that** I can delete user when needed
+      
+### Details and Assumptions
+    * Use Rest service to make request  
+
+### Acceptance Criteria     
+    gherkin 
+    Given user id
+    When sending request
+    Then service response of deletion
+
+**As a** developer 
+**I need** to List all account in the service
+**So that** I can reach all account list when needed
+      
+### Details and Assumptions
+    * Use Rest service to make request  
+
+### Acceptance Criteria     
+    gherkin 
+    Given request of list funtion
+    When sending request
+    Then service response of all account list
+
